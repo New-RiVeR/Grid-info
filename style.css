@@ -1,0 +1,13 @@
+.grid__auto {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+    /* для керування 7-им елементом в неявній сітці */
+    grid-auto-rows: 300px; 
+}
+
+.grid__auto-item {
+    text-align: center;
+    border: 2px solid gray;
+    padding: 30px;
+    flex: 30px;
+}
