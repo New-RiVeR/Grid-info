@@ -1,0 +1,19 @@
+.grid__body {
+    display: grid;
+    grid-template: repeat(2, 1fr)  / repeat(3, 1fr);
+    /* justify-items: center; */
+}
+.grid__item {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 30px;
+}
+.grid__item--1 {
+    background-color: pink;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    /* align-self: stretch;
+    justify-self: stretch; */
+    /* _______________________________ or */ 
+    margin: auto;
+}
