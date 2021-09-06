@@ -1,12 +1,14 @@
 .grid__body {
     display: grid;
     grid-template: repeat(2, 1fr)  / repeat(3, 1fr);
+    grid-gap: 10px;
     /* justify-items: center; */
 }
 .grid__item {
     text-align: center;
     border: 1px solid gray;
     padding: 30px;
+    display: subgrid;
 }
 .grid__item--1 {
     background-color: pink;
