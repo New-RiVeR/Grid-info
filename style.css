@@ -14,19 +14,19 @@ body {
     padding: 20px; 
     background: gold; 
   } 
-  #PageHeader { 
+  #pageHeader { 
     grid-area: header; 
   } 
-  #PageFooter { 
+  #pageFooter { 
     grid-area: footer; 
   } 
-  #MainArticle { 
+  #mainArticle { 
     grid-area: article;      
   }
   #mainNav {
     grid-area: nav; 
     } 
-  #SiteAds { 
+  #siteAds { 
     grid-area: ads; 
     } 
   
