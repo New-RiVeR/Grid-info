@@ -5,7 +5,7 @@
 
 .grid__body {
   width: 750px;
-  height: 750px;
+  height: 100%;
   margin: 0 auto;
   margin-top: 10px;
   background-color: rgb(207, 206, 206);
