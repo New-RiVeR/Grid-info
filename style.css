@@ -12,5 +12,5 @@
 .grid__item--small {
   justify-self: flex-end;
   align-self: center;
-  place-self: center flex-end;
+  /* place-self: center flex-end; */
 }
